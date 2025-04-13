@@ -7,5 +7,5 @@ test('Page contains title with correct text', () => {
   const dom = new JSDOM(html);
   const h1 = dom.window.document.querySelector('#title');
   expect(h1).not.toBeNull();
-  expect(h1.textContent).toBe('Hello World');
+  expect(h1.textContent).toBe('Helllo World');
 });
