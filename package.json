@@ -1,0 +1,11 @@
+{
+    "name": "html-css-assignment",
+    "version": "1.0.0",
+    "scripts": {
+      "test": "jest"
+    },
+    "devDependencies": {
+      "jest": "^29.0.0",
+      "jsdom": "^21.1.0"
+    }
+  }
