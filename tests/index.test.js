@@ -20,10 +20,10 @@ test('Page has a title element with id "title"', () => {
   expect(title.textContent.trim().length).toBeGreaterThan(0);
 });
 
-test('Page contains a button with text "Отправить"', () => {
+test('Page contains a button with text "Send"', () => {
   const button = document.querySelector('button');
   expect(button).not.toBeNull();
-  expect(button.textContent.trim()).toBe('Отправить');
+  expect(button.textContent.trim()).toBe('Send');
 });
 
 test('Page has a <ul> with at least 3 <li> elements', () => {
